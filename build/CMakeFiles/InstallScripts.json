@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/jacksonye/Metreec/build/cmake_install.cmake",
+		"/Users/jacksonye/Metreec/build/analysis/preprocessing/cmake_install.cmake",
+		"/Users/jacksonye/Metreec/build/analysis/metric/cmake_install.cmake",
+		"/Users/jacksonye/Metreec/build/pipeline/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

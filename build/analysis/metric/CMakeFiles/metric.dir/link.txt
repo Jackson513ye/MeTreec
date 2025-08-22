@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libmetric.a CMakeFiles/metric.dir/src/height.cpp.o CMakeFiles/metric.dir/src/CD.cpp.o CMakeFiles/metric.dir/src/DBH.cpp.o CMakeFiles/metric.dir/src/CR.cpp.o CMakeFiles/metric.dir/src/volume.cpp.o
+/usr/bin/ranlib ../../lib/libmetric.a

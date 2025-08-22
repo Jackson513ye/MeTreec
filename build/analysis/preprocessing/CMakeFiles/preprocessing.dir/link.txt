@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libpreprocessing.a CMakeFiles/preprocessing.dir/src/mesh_fill.cpp.o CMakeFiles/preprocessing.dir/src/structure_extract.cpp.o
+/usr/bin/ranlib ../../lib/libpreprocessing.a

@@ -1,0 +1,24 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/glew/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/glfw/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/glfw/src/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/tetgen/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/kd_tree/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/cminpack/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/optimizer_lm/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/easy3d/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/easy3d/core/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/easy3d/fileio/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/easy3d/util/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/easy3d/algo/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/easy3d/viewer/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/imgui/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/tinyfiledialogs/cmake_install.cmake",
+		"/Users/jacksonye/Documents/GitHub/TreePara/pipeline/build/3rd_party/rply/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
