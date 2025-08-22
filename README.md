@@ -1,4 +1,4 @@
-# MeTreec v1.0 <img src="MeTreec_logo.jpg" alt="logo" height="30" />
+# <img src="MeTreec_logo.jpg" alt="logo" height="30" /> MeTreec v1.0 
 
 <p align="right">
     <b><img src="https://img.shields.io/badge/Supported%20Platforms-Windows%20%7C%20macOS%20%7C%20Linux-green" /></b><br>
@@ -139,11 +139,11 @@ JSON 示例：
 
 ## 🧠 指标计算方法
 
-- 高度：取最高 N 个叶节点估计
-- 冠幅深度：CD = h_t - h0，h0 取最低 N 个叶节点
-- 冠幅半径：投影至 XY 平面，取凸包与最小包围圆
-- 胸径：在 1.3/1.0/0.7 m 切片点云估算，含分干检测
-- 体积/表面积：CGAL 修复网格并测量
+- 树木高度 ht：取最高 N 个叶节点估计
+- 冠幅深度 CD：CD = ht - h0，h0 取最低 5 个筛选后的叶节点平均
+- 冠幅半径 CR：投影至 XY 平面，取凸包与最小包围圆
+- 胸径 DBH：结合Fan et al. (2020)和Bauwens et al. (2021)的方法并进行改进，在 1.3/1.0/0.7 m 切片点云估算，含分干检测
+- 体积 volume：CGAL 修复网格并测量
 
 ---
 
@@ -158,7 +158,7 @@ JSON 示例：
 
 ## 数据
 
-`data/input/` 提供测试点云，来自 FOR-species20K 数据集。
+`data/input/` 提供测试点云，来自 FOR-species20K 数据集 Puliti et al. (2025)。
 
 ---
 
