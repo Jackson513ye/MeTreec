@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# CMake build artifacts
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/*.o
+**/*.obj
+**/*.a
+**/*.lib
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.exe
+**/*.app
+
+# Generated manifests and temp files
+**/install_local_manifest.txt
+**/install_manifest.txt
+
+# Local binaries
+**/bin/
+**/lib/
+
+# Logs
+*.log

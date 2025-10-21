@@ -205,12 +205,9 @@ int batch_reconstruct(std::vector<std::string>& point_cloud_files, const std::st
 
 
 int main(int argc, char *argv[]) {
-#if 0
-    argc = 4;
-    argv[1] = "/Users/lnan/Documents/Projects/AdTree/data";
-    argv[2] = "/Users/lnan/Documents/Projects/AdTree/data-results";
-    argv[3] = "-s";
-#endif
+    // Note: Removed hard-coded absolute test paths to keep the app relocatable.
+    // To test batch mode locally, pass arguments explicitly, e.g.:
+    //   ./AdTree <xyz_input_path_or_dir> <output_dir> [-s|-skeleton]
 
     if (argc == 1) {
         TreeViewer viewer;
